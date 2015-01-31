@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -226,3 +227,6 @@ print();
 =======
 
 >>>>>>> feature/03--CSS-Chess-Pieces
+=======
+
+>>>>>>> feature/04--JS-ChessBoard-Matrix
