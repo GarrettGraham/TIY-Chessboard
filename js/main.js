@@ -56,6 +56,24 @@ var generatePieces = function() {
     pieces.push(new piece('pawn', 'black', 7, 6));
 
 };
+
+var renderPieces = function() {
+    // traverse entire board and make sure each piece is on the right cell
+    switch(peice.type) {
+        case "rook" : 
+            // render a rook
+            // make sure to assign a class of .rook-white
+            break;
+    }
+};
+
+
+
+
+
+
+
+
 //      var table = document.body.children[0],
 //          thead = document.body.children[0].children[0],
 //          tbody = document.body.children[0].children[1];
