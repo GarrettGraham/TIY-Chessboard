@@ -100,6 +100,136 @@ textarea {
 
 
 
+<<<<<<< HEAD
+=======
+th {
+                border: 1px solid black;
+                background-color: darkgray;
+            }
+           
+           tbody th {
+                border: 1px solid black;
+               background-color: darkgray;
+           }
+           
+           tbody td {
+                width: 10%; 
+               padding-bottom: 10%;
+               border: 1px solid black;
+           }
+           
+          tbody :nth-child(even) td:nth-child(even),
+          tbody :nth-child(odd) td:nth-child(odd) 
+           {
+            background-color: red;
+          }
+           
+           th {
+            background-color: darkgray;
+               padding: 2em;
+           }
+           
+          table {
+            width: 90%;
+              margin: 0 auto;
+          }
+           
+          
+           
+        .piece  {
+            border: 1px solid;
+            width: 10em;
+            height: 19ex;
+            text-align: center;
+            font-size: 200%;
+        
+            
+        
+            
+        }
+
+        :before {
+            font-size: 7vw;
+            width: 40pt;
+            height: 40pt;
+            vertical-align: center;
+        }
+        
+        td {
+            position: relative;
+        }
+
+        td:before {
+          
+            position: absolute;
+        }
+        
+    
+        .queen-white:before {
+            content: '\2655';
+            
+        }
+
+        
+        .king-white:before {
+            content: '\2654';
+            
+        }
+
+
+        .rook-white:before {
+            content: '\2656';
+        }
+
+
+        .bishop-white:before {
+            content: '\2657';
+        }
+
+        .knight-white:before {
+            content: '\2658';
+        }
+
+    .pawn-white:before {
+            content: '\2659';
+        }
+
+
+    .knight-black:before {
+            content: '\265E';
+        }
+
+
+    .rook-black:before {
+            content: '\265C';
+        }
+
+    .king-black:before {
+            content: '\265A';
+        }
+
+    .queen-black:before {
+            content: '\265B';
+        }
+
+    .bishop-black:before {
+            content: '\265D';
+        }
+
+    .pawn-black:before {
+        content: '\265F';
+    }
+    
+    td:hover {
+        background-color: blue;
+    }
+
+
+
+
+
+
+>>>>>>> feature/get-chess-grid
 
 
 
