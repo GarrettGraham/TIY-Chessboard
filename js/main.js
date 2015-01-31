@@ -1,3 +1,13 @@
+var piece = function(type, color, x, y) {
+    this.type = type;
+    this.color = color;
+    this.x = x;
+    this.y = y;
+    this.assignCell = function(x, y) {
+        board[x][y] = this;
+    };
+};
+
 var generatePieces = function() {
     // have 8 * 8 loop make all 32 pieces
     
