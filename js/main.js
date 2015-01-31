@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -222,3 +223,6 @@ print();
 
 >>>>>>> feature/get-chess-grid
 >>>>>>> 3742cdf2ae26fd7774bafdd984039a51c1d0a94b
+=======
+
+>>>>>>> feature/03--CSS-Chess-Pieces

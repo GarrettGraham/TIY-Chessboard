@@ -97,6 +97,7 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+<<<<<<< HEAD
 
 
 
@@ -226,6 +227,47 @@ th {
         background-color: blue;
     }
 >>>>>>> 3742cdf2ae26fd7774bafdd984039a51c1d0a94b
+=======
+.whiteKing {
+    content: U+2654; 
+}
+ .whiteQueen {
+    content: U+2655; 
+ }
+.whiteRooks {
+    content: U+2656;
+}
+.whiteBishops {
+    content: U+2657;   
+}
+.whiteKnights {
+    content: U+2658;
+}
+.whitePawns {
+    content: U+2659;   
+}
+.blackKing {
+    content:U+265A;
+}
+.blackQueen {
+    content: U+265B;
+}
+.blackRooks {
+    content: U+265C;
+}
+.blackBishops {
+    content: U+265D;   
+}
+.blackKnights {
+    content: U+265E;
+}
+.blackPawns {
+    content: U+265F;
+}
+    
+
+
+>>>>>>> feature/03--CSS-Chess-Pieces
 
 
 
@@ -233,9 +275,12 @@ th {
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> feature/get-chess-grid
 >>>>>>> 3742cdf2ae26fd7774bafdd984039a51c1d0a94b
+=======
+>>>>>>> feature/03--CSS-Chess-Pieces
 
 
 
