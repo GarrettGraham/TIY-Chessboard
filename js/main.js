@@ -111,11 +111,104 @@ board.h = {
 
 print(board);
 
+// functions for moving the pieces -- ??how they tie with buttons??
+var whatMoveAreWeOn = 0;
 
+function movePiece(){
+    
+    if (whatMove == 0) {
+        var lContent = document.getElementById('a2').innerHTML;
+        document.getElementById('a2').innerHTML ="";
+        document.getElementById('c3').innerHTML = lContent;
+        whatMove++;
+    } else if (whatMove == 1) {
+        var lContent = document.getElementById('g8').innerHTML;
+        document.getElementById('g8').innerHTML = "";
+        document.getElementById('f8').innerHTML = lContent;
+        whatMove++;
+    } else if (whatMove == 2) {
+        var lContent = document.getElementById('b7').innerHTML;
+        document.getElementById('b7').innerHTML = "";
+        document.getElementById('c7').innerHTML = lContent;
+        whatMove++;
+    
+    } else if (whatMove == 3) {
+        var lContent = document.getElementById('h2').innerHTML;
+        document.getElementById('h2').innerHTML = "";
+        document.getElementById('f4').innerHTML = lContent;
+        whatMove++;
 
+    }
+}
+
+function movePieceBack(){
+
+    if(whatMove == 0) {
+        //do nothing
+    
+    } else if (whatMove == 1) {
+        var lContent = document.getElementById('c3').innerHTML;
+        document.getElementById('c3').innerHTML = "";
+        document.getElementById('a2').innerHTML = lContent;
+        whatMove--;
+    }  else if (whatMove == 2) {
+        var lContent = document.getElementById('f8').innerHTML;
+        document.getElementById('f8').innerHTML = "";
+        document.getElementById('g8').innerHTML = lContent;
+        whatMove--;
+    }  else if (whatMove == 3) {
+        var lContent = document.getElementById('c7').innerHTML;
+        document.getElementById('c7').innerHTML = "";
+        document.getElementById('b7').innerHTML = lContent;
+        whatMove--;
+    }  else if (whatMove == 1) {
+        var lContent = document.getElementById('f4').innerHTML;
+        document.getElementById('f4').innerHTML = "";
+        document.getElementById('h2').innerHTML = lContent;
+        whatMove--;
+    }
+
+}
+
+function fastForward() {
+    if (whatMove == 4) {
+    } else {
+        whatMove = 4;
+        var lContent = document.getElementby('a2').innerHTML;
+        document.getElementById('a2').innerHTML = "";
+        document.getElementById('c3').innerHTML = "";
+        document.getElementById('g8').innerHTML = "";
+        document.getElementById('f8').innerHTML = mcontent;
+    var nContent = docuent.getElementById('b7').innerHTML;
+        document.getElementById('b7').innerHTML = "";
+        document.getElementById('c7').innerHTML = nContent;
+    var oContent = document.getElementById('h2').innerHTML;
+        document.getElementById('h2').innerHTML = "";
+        document.getElementById('f4').innerHTML = oContent;
+    }
+}
+
+function rewind() {
+    if(whatMove = 0) {
+    } else {
+    whatMove = 0;
+    var lcontent = document.getElementById('c3').innerHTML;
+        document.getElementById('c3').innerHTML = "";
+        document.getElementById('a2').innerHTML = lContent;
+    var mContent = document.getElementById('f8').innerHTML;
+        document.getElementById('f8').innerHTML = "";
+        document.getElementById('g8').innerHTML = mContent;
+    var nContent = document.getElementById('c7').innerHTML;
+        document.getElementById('c7').innerHTML = "";
+        document.getElementById('b7').innerHTML = nContent;
+    var oContent = document.getElementById('f4').innerHTML;
+        document.getElementById('f4').innerHTML = "";
+        document.getElementById('h2').innerHTML = oContent;
+    }
+}
 // Basic Buttons
 
-document.write('<div class="button-group">');
+    document.write('<div class="button-group">');
     document.write('<i class="fa fa-angle-double-left fa-lg"></i>');
     document.write('<i class="fa fa-angle-left fa-lg"></i>');
     document.write('<i class="fa fa-angle-right fa-lg"></i>');
