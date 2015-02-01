@@ -91,7 +91,4 @@ board.h = {
 
 };
 
-//board.c.three = board.a.one;
-//board.a.one = '';
-
 print(board);
