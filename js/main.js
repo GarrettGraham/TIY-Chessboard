@@ -1,4 +1,21 @@
-<<<<<<< HEAD
+// Loop for the Grid
+
+function print(board) {
+    document.write('<table>');
+    
+    _.forEach(board, function (row, key){
+        document.write("<tr>");
+        _.forEach(row, function(square, k){
+                  document.write("<td>" + square "<td>")
+                  
+        });
+        document.write("<tr>");
+    });
+    document.write('<table>');
+}
+
+// dictionary of the chess pieces
+
 var board = {};
 
 board.a = {
@@ -93,22 +110,7 @@ board.h = {
 };
 
 print(board);
-=======
-// Below is the Loop for the Grid
 
 
 
-function print(board) {
-    document.write('<table>');
-    
-    _.forEach(board, function (row, key){
-        document.write("<tr>");
-        _.forEach(row, function(square, k){
-                  document.write("<td>" + square "<td>")
-                  
-        });
-        document.write("<tr>");
-    });
-    document.write('<table>');
-}
->>>>>>> d7df571bfd4d5d1391e4a08fab323aab1faa6679
+
