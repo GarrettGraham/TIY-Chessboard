@@ -113,4 +113,13 @@ print(board);
 
 
 
+// Basic Buttons
+
+document.write('<div class="button-group">');
+    document.write('<i class="fa fa-angle-double-left fa-lg"></i>');
+    document.write('<i class="fa fa-angle-left fa-lg"></i>');
+    document.write('<i class="fa fa-angle-right fa-lg"></i>');
+    document.write('<i class="fa fa-angle-double-right fa-lg"></i>');
+    document.write('</div>');
+
 
