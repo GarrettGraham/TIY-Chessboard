@@ -77,4 +77,21 @@ board.g = {
     'seven': '&#9817;',
     'eight': '&#9817;'  
     
-}
+};
+
+board.h = {
+    'one': '<span class="">&9814;</span>',
+    'two': '<span class="">&9816;</span>',
+    'three': 'span class="">&9815;</span>',
+    'four': 'span class="">&98813;</span>',
+    'five': 'span class="">&9812;</span>',
+    'six': 'span class="">&9815;</span>',
+    'seven': 'span class="">&9816;</span>',
+    'eight': 'span class="">&9814;</span>',
+
+};
+
+//board.c.three = board.a.one;
+//board.a.one = '';
+
+print(board);
