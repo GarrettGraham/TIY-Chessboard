@@ -22,3 +22,48 @@ board.b = {
     'eight': '&#9823;'
    
 };
+
+board.c = {
+    'one': '',
+    'two': '',
+    'three': '',
+    'four': '',
+    'five': '',
+    'six': '',
+    'seven': '',
+    'eight': ''
+};
+
+board.d = {
+    'one': '',
+    'two': '',
+    'three': '',
+    'four': '',
+    'five': '',
+    'six': '',
+    'seven': '',
+    'eight': ''
+};
+
+board.e = {
+    'one': '',
+    'two': '',
+    'three': '',
+    'four': '',
+    'five': '',
+    'six': '',
+    'seven': '',
+    'eight': ''
+};
+
+board.f = {
+    'one': '',
+    'two': '',
+    'three': '',
+    'four': '',
+    'five': '',
+    'six': '',
+    'seven': '',
+    'eight': ''
+};
+
