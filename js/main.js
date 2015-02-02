@@ -9,9 +9,9 @@ function print(board) {
                   document.write("<td>" + square "<td>")
                   
         });
-        document.write("<tr>");
+        document.write("</tr>");
     });
-    document.write('<table>');
+   document.write('</table>');
 }
 
 // dictionary of the chess pieces
