@@ -20,25 +20,25 @@ function print(board) {
 var board = {};
 
 board.a = {
-    'one': '<span class="">&9820;</span>',
-    'two': '<span class="">&9822;</span>',
-    'three': '<span class="">&9821;</span>',
-    'four': '<span class="">&98819;</span>',
-    'five': '<span class="">&9818;</span>',
-    'six': '<span class="">&9821;</span>',
-    'seven': '<span class="">&9822;</span>',
-    'eight': '<span class="">&9820;</span>',
+    'one': '<span class="">U+265C;</span>',
+    'two': '<span class="">U+265E;</span>',
+    'three': '<span class="">U+265D;</span>',
+    'four': '<span class="">U+265B;</span>',
+    'five': '<span class="">U+265A;</span>',
+    'six': '<span class="">U+265D;</span>',
+    'seven': '<span class="">U+265E;</span>',
+    'eight': '<span class="">U+265C;</span>',
 };
 
 board.b = {
-    'one': '<span class="">&#9823;</span>',
-    'two': '<span class="">&#9823;</span>',
-    'three': '<span class="">&#9823;</span>',
-    'four': '<span class="">&#9823;</span>',
-    'five': '<span class="">&#9823;</span>',
-    'six': '<span class="">&#9823;</span>',
-    'seven': '<span class="">&#9823;</span>',
-    'eight': '<span class="">&#9823;</span>'
+    'one': '<span class="">U+265F;</span>',
+    'two': '<span class="">U+265F;</span>',
+    'three': '<span class="">U+265F;</span>',
+    'four': '<span class="">U+265F;</span>',
+    'five': '<span class="">U+265F;</span>',
+    'six': '<span class="">U+265F;</span>',
+    'seven': '<span class="">U+265F;</span>',
+    'eight': '<span class="">U+265F;</span>'
    
 };
 
@@ -87,26 +87,26 @@ board.f = {
 };
 
 board.g = {
-    'one': '<span class="">&#9817;</span>',
-    'two': '<span class="">&#9817;</span>',
-    'three': '<span class="">&#9817;</span>',
-    'four': '<span class="">&#9817;</span>',
-    'five': '<span class="">&#9817;</span>',
-    'six': '<span class="">&#9817;</span>',
-    'seven': '<span class="">&#9817;</span>',
-    'eight': '<span class="">&#9817;</span>'  
+    'one': '<span class="">U+2659;</span>',
+    'two': '<span class="">U+2659;</span>',
+    'three': '<span class="">U+2659;</span>',
+    'four': '<span class="">U+2659;</span>',
+    'five': '<span class="">U+2659;</span>',
+    'six': '<span class="">U+2659;</span>',
+    'seven': '<span class="">U+2659;</span>',
+    'eight': '<span class="">U+2659;</span>'  
     
 };
 
 board.h = {
-    'one': '<span class="">&9814;</span>',
-    'two': '<span class="">&9816;</span>',
-    'three': '<span class="">&9815;</span>',
-    'four': '<span class="">&98813;</span>',
-    'five': '<span class="">&9812;</span>',
-    'six': '<span class="">&9815;</span>',
-    'seven': '<span class="">&9816;</span>',
-    'eight': '<span class="">&9814;</span>',
+    'one': '<span class="">U+2656;</span>',
+    'two': '<span class="">U+2658;</span>',
+    'three': '<span class="">U+2657;</span>',
+    'four': '<span class="">U+2655;</span>',
+    'five': '<span class="">U+2654;</span>',
+    'six': '<span class="">U+2657;</span>',
+    'seven': '<span class="">U+2658;</span>',
+    'eight': '<span class="">U+2656;</span>',
 
 };
 
