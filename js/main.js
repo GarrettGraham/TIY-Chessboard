@@ -16,6 +16,7 @@ function print(board) {
 
 // dictionary of the chess pieces
 
+
 var board = {};
 
 board.a = {
