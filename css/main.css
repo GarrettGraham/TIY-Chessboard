@@ -130,10 +130,30 @@ td:hover {
 	background-color: #c1ffc1;
 }
 
-.pieceBlackRook::before {
-	content: U+265C;
+tbody :nth-child(even) td:nth-child(even),
+tbody :nth-child(odd) td:nth-child(odd) {
+	background-color: #e6fff8;
 }
 
+.pieceBlackRook::before {
+	content: '\265C';
+}
+
+.pieceBlackKnight::before {
+	content: '\265E';
+}
+
+.pieceBlackBishop::before {
+	content: '\265D';
+}
+
+.pieceBlackQueen::before {
+	content: '\265B';
+}
+
+.pieceBlackKing::before {
+	content: '\265A';
+}
 
 /*
 span {
