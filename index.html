@@ -296,8 +296,8 @@
 </table>
 -->
  <script src="//cdnjs.cloudflare.com/ajax/libs/lodash.js/2.4.1/lodash.min.js"></script>
-<script> 
-//	
+<script>
+	
 //	var board = [];
 //
 //function print(board){
@@ -327,15 +327,34 @@
 //}
 //
 //print();
+
+	
+	var renderBoard = function() {[
+    // have 8 * 8 make array "2-dimensional matrix"
+    ['R','N','B','Q','K','B','N','R'],
+    ['P','P','P','P','P','P','P','P'],
+    [' ',' ',' ',' ',' ',' ',' ',' '],
+    [' ',' ',' ',' ',' ',' ',' ',' '],
+    [' ',' ',' ',' ',' ',' ',' ',' '],
+    [' ',' ',' ',' ',' ',' ',' ',' '],
+    ['p','p','p','p','p','p','p','p'],
+    ['r','n','b','q','k','b','n','r']];
+};
+//	function(print){
+//		var rowIdentifier = ['a', 'b', 'c', 'e', 'f', 'g', 'h'];
+//		
 	function print(board) { 
 		document.write('<table>');
 		_.forEach(board, function (row, key){ 
 			document.write("<tr>"); 
-			_.forEach(row, function(square, key){ document.write("<td>" + square + "<td>") 
+			_.forEach(row, function(square, key){ 
+				document.write("<td>" + square + "</td>") 
+			
 	}); 
 			document.write("</tr>");
 		}); 
-		document.write('</table>'); } 
+		document.write('</table>');
+	} 
 		
 	// dictionary of the chess pieces 
 	var board = {}; 
@@ -350,14 +369,14 @@
 				'eight': '<span class="">U+265C;</span>', 
 			}; 
 	board.b = { 
-		'one': '<span class="">U+265F;</span>',
-		'two': '<span class="">U+265F;</span>',
-		'three': '<span class="">U+265F;</span>',
-		'four': '<span class="">U+265F;</span>',
-		'five': '<span class="">U+265F;</span>',
-		'six': '<span class="">U+265F;</span>',
-		'seven': '<span class="">U+265F;</span>',
-		'eight': '<span class="">U+265F;</span>' 
+		'one': '<span class="">&#9823;</span>',
+		'two': '<span class="">&#9823;</span>',
+		'three': '<span class="">&#9823;</span>',
+		'four': '<span class="">&#9823;</span>',
+		'five': '<span class="">&#9823;</span>',
+		'six': '<span class="">&#9823;</span>',
+		'seven': '<span class="">&#9823;</span>',
+		'eight': '<span class="">&#9823;</span>' 
 	}; 
 	board.c = { 
 		'one': '',
@@ -418,7 +437,8 @@
 		'seven': '<span class="">U+2658;</span>', 
 		'eight': '<span class="">U+2656;</span>', 
 	}; 
-	print(board); 
+	print(board);
+	
 		// functions for moving the pieces -- ??how they tie with buttons?? 
 //		var whatMoveAreWeOn = 0; 
 //		function movePiece(){ 
@@ -444,7 +464,6 @@
 	<script src="js/plugins.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/2.4.1/lodash.js"></script>
 	<script src="js/main.js"></script>
-
 	<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
 	<script>
 		(function (b, o, i, l, e, r) {

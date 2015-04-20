@@ -114,6 +114,8 @@ tbody {
 
 td {
 	border: 1px solid black;
+	width: 5em;
+	height: 5em;
 }
 
 tbody th {
@@ -134,6 +136,7 @@ tbody :nth-child(even) td:nth-child(even),
 tbody :nth-child(odd) td:nth-child(odd) {
 	background-color: #e6fff8;
 }
+/*
 
 .pieceBlackPawn::before {
 	content: '\265F';
@@ -157,6 +160,7 @@ tbody :nth-child(odd) td:nth-child(odd) {
 .pieceBlackKing::before {
 	content: '\265A';
 }
+*/
 
 /*
 span {
