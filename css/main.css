@@ -135,6 +135,9 @@ tbody :nth-child(odd) td:nth-child(odd) {
 	background-color: #e6fff8;
 }
 
+.pieceBlackPawn::before {
+	content: '\265F';
+}
 .pieceBlackRook::before {
 	content: '\265C';
 }
