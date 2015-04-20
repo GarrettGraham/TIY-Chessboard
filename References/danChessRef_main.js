@@ -117,8 +117,6 @@ board.h = {
 print(board);
 
 
-
-
 //board.c.three = board.a.one;
 //board.a.one = '';
 
@@ -398,3 +396,274 @@ function print(board){
 }
 
 print();
+
+	
+	
+	<!--
+
+	<table id="chessboard">
+		<thead class="x-coordinate">
+			<tr class="row">
+				<td> </td>
+				<th> A </th>
+				<th> B </th>
+				<th> C </th>
+				<th> D </th>
+				<th> E </th>
+				<th> F </th>
+				<th> G </th>
+				<th> H </th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class="row">
+				<th> 8 </th>
+					<td class="pieceBlackRook">
+					</td>
+					<td class="pieceBlackKnight">
+					</td>
+					<td class="pieceBlackBishop">
+					</td>
+					<td class="pieceBlackQueen">
+					</td>
+					<td class="pieceBlackKing">
+					</td>
+					<td class="pieceBlackBishop">
+					</td>
+					<td class="pieceBlackKnight">
+					</td>
+					<td class="pieceBlackRook">
+					</td>
+				<th> 8 </th>			
+			</tr>
+			<tr class="row">
+				<th> 7 </th>
+					<td class="pieceBlackPawn">
+					</td>
+					<td class="pieceBlackPawn"></td>
+					<td class="pieceBlackPawn"></td>
+					<td class="pieceBlackPawn"></td>
+					<td class="pieceBlackPawn"></td>
+					<td class="pieceBlackPawn"></td>
+					<td class="pieceBlackPawn"></td>									<td class="pieceBlackRook"></td>					
+				<th> 7 </th>
+
+			</tr>
+			<tr class="row">
+			<th> 6 </th>
+				<td id="a3"></td>
+				<td id="b3"></td>
+				<td id="c3"></td>
+				<td id="d3"></td>
+				<td id="e3"></td>
+				<td id="f3"></td>
+				<td id="g3"></td>
+				<td id="h3"></td>
+			<th> 6 </th>
+
+			</tr>
+			<tr class="row">
+			<th> 5 </th>
+				<td id="a4"></td>
+				<td id="b4"></td>
+				<td id="c4"></td>
+				<td id="d4"></td>
+				<td id="e4"></td>
+				<td id="f4"></td>
+				<td id="g4"></td>
+				<td id="h4"></td>
+			<th> 5 </th>
+
+			</tr>
+			<tr class="row">
+			<th> 4 </th>
+				<td id="a5"></td>
+				<td id="b5"></td>
+				<td id="c5"></td>
+				<td id="d5"></td>
+				<td id="e5"></td>
+				<td id="f5"></td>
+				<td id="g5"></td>
+				<td id="h5"></td>
+			<th> 4 </th>
+
+			</tr>
+			<tr class="row">
+			<th> 3 </th>
+				<td id="a6"></td>
+				<td id="b6"></td>
+				<td id="c6"></td>
+				<td id="d6"></td>
+				<td id="e6"></td>
+				<td id="f6"></td>
+				<td id="g6"></td>
+				<td id="h6"></td>
+			<th> 3 </th>
+
+			</tr>
+			<tr class="row">
+			<th> 2 </th>
+				<td><span>&#9817;</span></td>
+				<td><span>&#9817;</span></td>
+				<td><span>&#9817;</span></td>
+				<td><span>&#9817;</span></td>
+				<td><span>&#9817;</span></td>
+				<td><span>&#9817;</span></td>
+				<td><span>&#9817;</span></td>
+				<td><span>&#9817;</span></td>
+				<th> 2 </th>
+			</tr>
+			<tr class="row">
+			<th> 1 </th>
+				<td><span>&#9814;</span></td>
+				<td><span>&#9816;</span></td>
+				<td><span>&#9815;</span></td>
+				<td><span>&#9813;</span></td>
+				<td><span>&#9812;</span></td>
+				<td><span>&#9815;</span></td>
+				<td><span>&#9816;</span></td>
+				<td><span>&#9814;</span></td>
+			<th> 1 </th>
+
+			</tr>
+			<tr class="row">
+				<td> </td>
+				<th> A </th>
+				<th> B </th>
+				<th> C </th>
+				<th> D </th>
+				<th> E </th>
+				<th> F </th>
+				<th> G </th>
+				<th> H </th>
+			</tr>
+		</tbody>
+	</table>
+-->
+
+	<!--
+        <table id="chessboard">
+	<thead class="x-coordinate">
+		<tr class="row">
+			<td> </td>
+			<th> A </th>
+			<th> B </th>
+			<th> C </th>
+			<th> D </th>
+			<th> E </th>
+			<th> F </th>
+			<th> G </th>
+			<th> H </th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr class="row">
+			<th> 8 </th>
+			<td class="piece black rook"></td>
+			<td class="piece black knight"></td>
+			<td class="piece black bishop"></td>
+			<td class="piece black queen"></td>
+			<td class="piece black king"></td>
+			<td class="piece black bishop"></td>
+			<td class="piece black knight"></td>
+			<td class="piece black rook"></td>
+			<th> 8 </th>
+		</tr>
+		<tr class="row">
+			<th> 7 </th>
+			<td class="piece black pawn"> </td>
+			<td class="piece black pawn"> </td>
+			<td class="piece black pawn"> </td>
+			<td class="piece black pawn"> </td>
+			<td class="piece black pawn"> </td>
+			<td class="piece black pawn"> </td>
+			<td class="piece black pawn"> </td>
+			<td class="piece black pawn"> </td>
+			<th> 7 </th>
+		</tr>
+		<tr class="row">
+			<th> 6 </th>
+			<td id="a5"> </td>
+			<td id="b5"> </td>
+			<td id="c5"> </td>
+			<td id="d5"> </td>
+			<td id="e5"> </td>
+			<td id="f5"> </td>
+			<td id="g6"> </td>
+			<td id="h6"> </td>
+			<th> 6 </th>
+		</tr>
+		<tr class="row">
+			<th> 5 </th>
+			<td id="a5"> </td>
+			<td id="b5"> </td>
+			<td id="c5"> </td>
+			<td id="d5"> </td>
+			<td id="e5"> </td>
+			<td id="f5"> </td>
+			<td id="g5"> </td>
+			<td id="h5"> </td>
+			<th> 5 </th>
+		</tr>
+		<tr class="row">
+			<th> 4 </th>
+			<td id="a4"> </td>
+			<td id="b4"> </td>
+			<td id="c4"> </td>
+			<td id="d4"> </td>
+			<td id="e4"> </td>
+			<td id="f4"> </td>
+			<td id="g4"> </td>
+			<td id="h4"> </td>
+			<th> 4 </th>
+		</tr>
+		<tr class="row">
+			<th> 3 </th>
+			<td id="a3"> </td>
+			<td id="b3"> </td>
+			<td id="c3"> </td>
+			<td id="d3"> </td>
+			<td id="e3"> </td>
+			<td id="f3"> </td>
+			<td id="g3"> </td>
+			<td id="h3"> </td>
+			<th> 3 </th>
+		</tr>
+		<tr class="row">
+			<th> 2 </th>
+			<td class="piece black rook"></td>
+			<td class="piece black knight"></td>
+			<td class="piece black bishop"></td>
+			<td class="piece black queen"></td>
+			<td class="piece black king"></td>
+			<td class="piece black bishop"></td>
+			<td class="piece black knight"></td>
+			<td class="piece black rook"></td>
+			<th> 8 </th>
+		</tr>
+		<tr class="row">
+			<th> 1 </th>
+			<td class="piece black rook"></td>
+			<td class="piece black knight"></td>
+			<td class="piece black bishop"></td>
+			<td class="piece black queen"></td>
+			<td class="piece black king"></td>
+			<td class="piece black bishop"></td>
+			<td class="piece black knight"></td>
+			<td class="piece black rook"></td>
+			<th> 8 </th>
+		</tr>
+		<tr class="row">
+			<td> </td>
+			<th> A </th>
+			<th> B </th>
+			<th> C </th>
+			<th> D </th>
+			<th> E </th>
+			<th> F </th>
+			<th> G </th>
+			<th> H </th>
+		</tr>
+	</tbody>
+</table>
+-->

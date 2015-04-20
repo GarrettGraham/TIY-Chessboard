@@ -114,14 +114,16 @@ tbody {
 
 td {
 	border: 1px solid black;
-	width: 5em;
+	width: 5em; /* creates the square for the javascript*/
 	height: 5em;
 }
 
+/* this creates the squares when using the html for the board
 tbody th {
 	width: 5em;
 	height: 5em;
 }
+*/
 
 tbody td {
 	text-align: center;
