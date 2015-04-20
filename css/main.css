@@ -99,46 +99,83 @@ textarea {
 
 
 
+th {
+	width:5em;
+	height:5em;
+	border: 1px solid black;
+	background-color: #c1ffc1;
+}
+
+/*
+tbody {
+	border: 1px solid black;
+}
+*/
+
+td {
+	border: 1px solid black;
+}
+
+tbody th {
+	width: 5em;
+	height: 5em;
+}
+
+tbody td {
+	text-align: center;
+}
+
+
+td:hover {
+	background-color: #c1ffc1;
+}
+
+.pieceBlackRook::before {
+	content: U+265C;
+}
+
+
+/*
 span {
-align-content: center;   
+	align-content: center;
 }
 
 .orientationButtons {
-    align-content: center;
+	align-content: center;
 }
 
 th {
-    border: 1px solid black;
-    background-color: darkgray;
-    }
-           
-    tbody th {
-        border: 1px solid black;
-        background-color: darkgray;
-        }
-           
-    tbody td {
-        width: 10%; 
-        padding-bottom: 10%;
-        border: 1px solid black;
-        }
-           
-          tbody :nth-child(even) td:nth-child(even),
-          tbody :nth-child(odd) td:nth-child(odd) 
-           {
-            background-color: red;
-          }
-           
-           th {
-            background-color: darkgray;
-               padding: 2em;
-           }
-           
-        table {
-            width: 90%;
-            margin: 0 auto;
-        }
-           
+	border: 1px solid black;
+	background-color: darkgray;
+}
+
+tbody th {
+	border: 1px solid black;
+	background-color: darkgray;
+}
+
+tbody td {
+	width: 10%;
+	padding-bottom: 10%;
+	border: 1px solid black;
+}
+
+tbody:nth-child(even) td:nth-child(even),
+tbody:nth-child(odd) td:nth-child(odd) {
+	background-color: red;
+}
+
+th {
+	background-color: darkgray;
+	padding: 2em;
+}
+
+table {
+	width: 90%;
+	margin: 0 auto;
+}
+*/
+
 /*
         .piece  {
             border: 1px solid;
@@ -148,6 +185,7 @@ th {
             font-size: 200%;
         }
 */
+/*
 
         :before {
             font-size: 7vw;
@@ -155,31 +193,22 @@ th {
             height: 40pt;
             vertical-align: center;
         }
-        
+
         td {
             position: relative;
         }
 
         td:before {
-          
             position: absolute;
         }
-        
+
     td:hover {
         background-color: blue;
     }
+*/
 
 
 /*!!!button styling!!!*/
-
-
-
-
-
-
-
-
-
 
 
 

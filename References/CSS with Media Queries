@@ -1,0 +1,241 @@
+
+p {
+  font-family: 'Open Sans' sans-serif;
+  font-size: 1.5em;
+  font-weight: 400;
+  line-height: 3ex;
+  color: #62676e;
+}
+
+h1 {
+  font-family: 'Myriad Pro' sans-serif;
+  font-size: 7ex;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  margin: 0;
+  line-height: 1.8ex;
+}
+
+h2 {
+  font-family: 'Oswald' sans-serif;
+  font-size: 10ex;
+  font-weight: 400;
+  line-height: 2ex;
+  text-transform: uppercase;
+  color: #223752;
+  margin-bottom: 0;
+}
+
+h3 {
+  font-family: 'Open Sans' sans-serif;
+  font-size: 3.5ex;
+  font-weight: 500;
+  color: #4371b1;
+  text-transform: uppercase;
+  border-left: 0.2ex solid #cecece;
+  padding-left: 0.5em;
+}
+
+.banner {
+  background-image: url(http://lorempixel.com/output/cats-q-c-1300-900-7.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 1em 0 0.1em 0;
+}
+
+header .main-nav {
+  text-align: center;
+}
+
+header .main-nav a {
+  font-family: 'Oswald' sans-serif;
+  font-size: 3ex;
+  font-weight: 300;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+header .main-nav a:first-child {
+  padding-right: 1em;
+}
+
+header icon {
+  color: #fff;
+}
+
+header img {
+  display: block;
+  margin: 1.5em auto 1.5em auto;
+}
+
+header p {
+  text-align: center;
+  color: #fff;
+  margin-top: 0;
+}
+
+.main-container {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.text-container small {
+  font-size: 2.5ex;
+  color: #a8b3bc;
+  text-decoration: underline;
+}
+
+.button-group {
+  margin-bottom: 11em;
+}
+
+.button-group icon {
+  color: #fff;
+  background-color: #62686e;
+  padding: 0.8ex;
+  margin-right: .5ex;
+}
+
+aside .aside-image img {
+  width: 32%;
+  border-radius: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+aside p {
+  font-size: 3.5ex;
+  text-align: center;
+  text-transform: uppercase;
+  color: #406eb0;
+  margin: 1.5ex 0 0 0;
+}
+
+aside .aside-nav {
+  text-align: center;
+  margin-bottom: 9em;
+}
+aside a {
+  font-size: 3ex;
+  color: #a6b2be;
+  display: inline;
+  text-decoration: none;
+  padding-right: 1em;
+}
+
+.ad-area img {
+  width: 100%;
+}
+
+.ad-text p {
+  text-align: right;
+  margin-top: .5ex;
+}
+
+.ad-text a {
+  color: #acb7c1;
+}
+
+figure img {
+  width: 100%;
+}
+
+.bottom-content h2 {
+  font-size: 3.5em;
+  text-align: center;
+}
+
+.bottom-content {
+  clear: both;
+}
+
+.image-container {
+  padding: 0;
+  list-style: none;
+}
+
+.post {
+  position: relative;
+}
+
+.post figcaption {
+  font-family: 'Oswald' sans-serif;
+  font-size: 5.5ex;
+  text-transform: uppercase;
+  color: #fff;
+  position: absolute;
+  bottom: .5em;
+  left: .6em;
+}
+
+footer {
+  background-color: #213751;
+  padding: 4em;
+}
+footer .nav-footer {
+  text-align: center;
+}
+footer a {
+  font-size: 3ex;
+  text-decoration: none;
+  color: #a7b0bc;
+}
+
+footer img {
+  width: 17%;
+  display: block;
+  margin: 4em auto 0
+}
+
+footer p {
+  font-family: 'Open Sans' sans-serif;
+  font-size: 3ex;
+  color: #a7b0bc;
+  text-align: center;
+}
+@media only screen and (max-width: 666px) {
+  .hidden-mobile {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 666px) {
+  .main-nav {
+    float: right;
+  }
+
+  .logo-container {
+    float: left;
+  }
+
+  .main-container {
+    width: 80%;
+  }
+
+  .content {
+    width: 75%;
+    float: left;
+    box-sizing: border-box;
+  }
+
+  .sidebar {
+    width: 25%;
+    float: left;
+    box-sizing: border-box;
+  }
+
+}
+
+@media only screen and (min-width: 35em) {
+  /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+(-o-min-device-pixel-ratio: 5/4),
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 120dpi) {
+  /* Style adjustments for high resolution devices */
+}
